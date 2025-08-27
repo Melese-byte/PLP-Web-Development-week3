@@ -1,0 +1,62 @@
+
+/* Reset default browser margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 20px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: #004080;
+  color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+/* Main content */
+main {
+  margin-bottom: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #004080;
+  margin-bottom: 10px;
+}
+
+/* Box Model Demo */
+.box {
+  background-color: #e0f0ff;
+  border: 2px solid #004080;
+  padding: 20px;
+  margin: 15px 0;
+  width: 300px;
+  border-radius: 5px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #ddd;
+  border-radius: 8px;
+}
